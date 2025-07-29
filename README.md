@@ -44,7 +44,7 @@ Tag your Docker image:
 docker tag your-image-name:latest your-account-id.dkr.ecr.your-region.amazonaws.com/your-repository:latest
 Push the image to ECR:
 docker push your-account-id.dkr.ecr.your-region.amazonaws.com/your-repository:latest
-Run the backend and frontend separately:
+Run the backend and frontend separately: 
 
 Start your backend server:
 npm run backend
